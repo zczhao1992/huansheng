@@ -1,5 +1,57 @@
 {
+    "Logo": {
+        "Name": "HuanSheng"
+    },
     "HomePage": {
         "title": "Hello world!"
+    },
+    "SideBar": {
+        "dashboard": "Dashboard",
+        "exploreVoices": "Explore voices",
+        "textToSpeech": "Text to speech",
+        "voiceCloning": "Voice cloning",
+        "settings": "Settings",
+        "help": "Help and support",
+        "others": "Others"
+    },
+    "Header": {
+        "feedback": "Feedback",
+        "needHelp": "Need help?",
+        "greeting": "Nice to see you"
+    },
+    "TextInput": {
+        "placeholder": "Start typing or paste your text here...",
+        "generateSpeech": "Generate speech",
+        "estimateText": "Start typing to estimate",
+        "estimated": "estimated",
+        "characters": "characters"
+    },
+    "QuickActions": {
+        "QuickActions": "Quick Actions",
+        "TryNow": "Try now",
+        "narrateStory": {
+            "title": "Narrate a Story",
+            "description": "Bring characters to life with expressive AI narration"
+        },
+        "recordAd": {
+            "title": "Record an Ad",
+            "description": "Create professional advertisements with lifelike AI voices"
+        },
+        "directMovieScene": {
+            "title": "Direct a Movie Scene",
+            "description": "Generate dramatic dialogue for film and video"
+        },
+        "voiceGameCharacter": {
+            "title": "Voice a Game Character",
+            "description": "Build immersive worlds with dynamic character voices"
+        },
+        "introducePodcast": {
+            "title": "Introduce Your Podcast",
+            "description": "Hook your listeners from the very first second"
+        },
+        "guideMeditation": {
+            "title": "Guide a Meditation",
+            "description": "Craft soothing, calming audio for wellness content"
+        }
     }
 }
