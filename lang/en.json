@@ -24,7 +24,8 @@
         "generateSpeech": "Generate speech",
         "estimateText": "Start typing to estimate",
         "estimated": "estimated",
-        "characters": "characters"
+        "characters": "characters",
+        "bottomText": "get started by typing or pasting text above"
     },
     "QuickActions": {
         "QuickActions": "Quick Actions",
@@ -53,5 +54,14 @@
             "title": "Guide a Meditation",
             "description": "Craft soothing, calming audio for wellness content"
         }
+    },
+    "VoicePlaceholder": {
+        "text1": "Preview will appear here",
+        "text2": "Once you generate, your audio result will appear here. Sit back and relax.",
+        "text3": "Don't know how?"
+    },
+    "VoiceSetting": {
+        "settings": "Settings",
+        "history": "History"
     }
 }

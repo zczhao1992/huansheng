@@ -17,7 +17,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "幻声",
+  title: {
+    default: "幻声",
+    template: "%s | 幻声",
+  },
   description: "幻声-AI生成语音",
 };
 

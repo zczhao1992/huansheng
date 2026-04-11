@@ -24,7 +24,8 @@
         "generateSpeech": "生成语音",
         "estimateText": "开始计算开销",
         "estimated": "开销",
-        "characters": "字数"
+        "characters": "字数",
+        "bottomText": "通过在上方输入或粘贴文本来开始"
     },
     "QuickActions": {
         "QuickActions": "快速开始",
@@ -53,5 +54,14 @@
             "title": "引导冥想",
             "description": "为健康内容打造舒缓、平静的音频"
         }
+    },
+    "VoicePlaceholder": {
+        "text1": "预览将显示在此处",
+        "text2": "生成后，您的音频结果将在此处显示。请稍后。",
+        "text3": "寻求帮助"
+    },
+    "VoiceSetting": {
+        "settings": "设置",
+        "history": "历史"
     }
 }
