@@ -62,6 +62,30 @@
     },
     "VoiceSetting": {
         "settings": "设置",
-        "history": "历史"
+        "history": "历史",
+        "btnText1": "生成中...",
+        "btnText2": "生成语音"
+    },
+    "Sliders": {
+        "temperature": {
+            "label": "创造力",
+            "leftLabel": "稳定",
+            "rightLabel": "丰富多变"
+        },
+        "topP": {
+            "label": "语音多样性",
+            "leftLabel": "保守",
+            "rightLabel": "动态"
+        },
+        "topK": {
+            "label": "表达幅度",
+            "leftLabel": "含蓄",
+            "rightLabel": "戏剧化"
+        },
+        "repetitionPenalty": {
+            "label": "自然流畅度",
+            "leftLabel": "节奏感强",
+            "rightLabel": "富于变化"
+        }
     }
 }

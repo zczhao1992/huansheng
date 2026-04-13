@@ -2,8 +2,8 @@ import { History, Settings } from "lucide-react";
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useTranslations } from "next-intl";
-// import { SettingsPanelHistory } from "./settings-panel-history";
-// import { SettingsPanelSettings } from "./settings-panel-settings";
+import { SettingsPanelHistory } from "./settings-panel-history";
+import { SettingsPanelSettings } from "./settings-panel-settings";
 
 const tabTriggerClassName =
   "flex-1 h-full gap-2 bg-transparent rounded-none border-x-0 border-t-0 border-b-px border-b-transparent shadow-none data-[state=active]:border-b-foreground group-data-[variant=default]/tabs-list:data-[state=active]:shadow-none";
@@ -31,13 +31,13 @@ export function SettingsPanel() {
           value="settings"
           className="mt-0 flex min-h-0 flex-1 flex-col overflow-y-auto"
         >
-          {/* <SettingsPanelSettings /> */}
+          <SettingsPanelSettings />
         </TabsContent>
         <TabsContent
           value="history"
           className="mt-0 flex min-h-0 flex-1 flex-col overflow-y-auto"
         >
-          {/* <SettingsPanelHistory /> */}
+          <SettingsPanelHistory />
         </TabsContent>
       </Tabs>
     </div>

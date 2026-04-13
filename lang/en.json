@@ -62,6 +62,30 @@
     },
     "VoiceSetting": {
         "settings": "Settings",
-        "history": "History"
+        "history": "History",
+        "btnText1": "Generating...",
+        "btnText2": "Generate speech"
+    },
+    "Sliders": {
+        "temperature": {
+            "label": "Creativity",
+            "leftLabel": "Consistent",
+            "rightLabel": "Expressive"
+        },
+        "topP": {
+            "label": "Voice Variety",
+            "leftLabel": "Stable",
+            "rightLabel": "Dynamic"
+        },
+        "topK": {
+            "label": "Expression Range",
+            "leftLabel": "Subtle",
+            "rightLabel": "Dramatic"
+        },
+        "repetitionPenalty": {
+            "label": "Natural Flow",
+            "leftLabel": "Rhythmic",
+            "rightLabel": "Varied"
+        }
     }
 }

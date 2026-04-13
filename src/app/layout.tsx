@@ -4,6 +4,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
 import { Toaster } from "@/components/ui/sonner";
 import { ClerkProvider } from "@clerk/nextjs";
+import { TRPCReactProvider } from "@/trpc/client";
 import "./globals.css";
 
 const inter = Inter({
@@ -37,14 +38,18 @@ export default async function RootLayout({
 
   return (
     <ClerkProvider>
-      <html lang={locale} suppressHydrationWarning>
-        <body className={`${inter.variable} ${geistMono.variable} antialiased`}>
-          <Toaster />
-          <NextIntlClientProvider messages={messages}>
-            {children}
-          </NextIntlClientProvider>
-        </body>
-      </html>
+      <TRPCReactProvider>
+        <html lang={locale} suppressHydrationWarning>
+          <body
+            className={`${inter.variable} ${geistMono.variable} antialiased`}
+          >
+            <Toaster />
+            <NextIntlClientProvider messages={messages}>
+              {children}
+            </NextIntlClientProvider>
+          </body>
+        </html>
+      </TRPCReactProvider>
     </ClerkProvider>
   );
 }
