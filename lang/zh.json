@@ -87,5 +87,25 @@
             "leftLabel": "节奏感强",
             "rightLabel": "富于变化"
         }
+    },
+    "VoiceSelector": {
+        "voiceStyle": "语音风格",
+        "selectLabel": "选择语音",
+        "teamVoices": "团队语音",
+        "builtVoices": "内置语音"
+    },
+    "VoiceCategoryLabels": {
+        "AUDIOBOOK": "有声书",
+        "CONVERSATIONAL": "对话式",
+        "CUSTOMER_SERVICE": "客服",
+        "GENERAL": "通用",
+        "NARRATIVE": "叙述性",
+        "CHARACTERS": "角色扮演",
+        "MEDITATION": "冥想",
+        "MOTIVATIONAL": "励志",
+        "PODCAST": "播客",
+        "ADVERTISING": "广告",
+        "VOICEOVER": "配音",
+        "CORPORATE": "企业"
     }
 }

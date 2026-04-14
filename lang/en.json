@@ -87,5 +87,25 @@
             "leftLabel": "Rhythmic",
             "rightLabel": "Varied"
         }
+    },
+    "VoiceSelector": {
+        "voiceStyle": "Voice style",
+        "selectLabel": "Selected Voice",
+        "teamVoices": "Team Voices",
+        "builtVoices": "Built-in Voices"
+    },
+    "VoiceCategoryLabels": {
+        "AUDIOBOOK": "Audiobook",
+        "CONVERSATIONAL": "Conversational",
+        "CUSTOMER_SERVICE": "Customer Service",
+        "GENERAL": "General",
+        "NARRATIVE": "Narrative",
+        "CHARACTERS": "Characters",
+        "MEDITATION": "Meditation",
+        "MOTIVATIONAL": "Motivational",
+        "PODCAST": "Podcast",
+        "ADVERTISING": "Advertising",
+        "VOICEOVER": "Voiceover",
+        "CORPORATE": "Corporate"
     }
 }
