@@ -107,5 +107,10 @@
         "ADVERTISING": "Advertising",
         "VOICEOVER": "Voiceover",
         "CORPORATE": "Corporate"
+    },
+    "VoicePreview": {
+        "title": "Voice Preview",
+        "loading": "Loading audio...",
+        "download": "Download"
     }
 }

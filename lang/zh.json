@@ -107,5 +107,10 @@
         "ADVERTISING": "广告",
         "VOICEOVER": "配音",
         "CORPORATE": "企业"
+    },
+    "VoicePreview": {
+        "title": "语音预览",
+        "loading": "生成语音中...",
+        "download": "下载"
     }
 }
