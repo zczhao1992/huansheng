@@ -11,7 +11,7 @@
         "textToSpeech": "Text to speech",
         "voiceCloning": "Voice cloning",
         "settings": "Settings",
-        "help": "Help and support",
+        "help": "GitHub",
         "others": "Others"
     },
     "Header": {
@@ -151,5 +151,46 @@
             "label": "Guide a meditation class",
             "prompt": "Close your eyes and take a deep breath in. Hold it gently... and release. Feel the weight of the day slowly melting away. With each breath, you're sinking deeper into calm. There is nowhere else you need to be. Just here. Just now. Breathe in peace, breathe out tension."
         }
+    },
+    "VoicesToolbar": {
+        "title": "All Libraries",
+        "des": "Discover your voices, or make your own",
+        "placeholder": "Search voices...",
+        "createBtn": "Custom voice"
+    },
+    "VoicesList": {
+        "des1": "No voices found",
+        "des2": "will appear here"
+    },
+    "VoiceCard": {
+        "use": "Use this voice",
+        "del": "Delete voice",
+        "delDiaTitle": "Delete voice",
+        "cancel": "Cancel",
+        "delBtn": "Delete",
+        "delBtnPending": "Delete...",
+        "delDes1": "Are you sure you want to delete ",
+        "delDes2": "? This action cannot be undone.",
+        "delSuccess": "Voice deleted successfully",
+        "delError": "Failed to delete voice"
+    },
+    "VoiceCreate": {
+        "title": "Create custom voice",
+        "des": "Upload or record an audio sample to add a new voice to your library.",
+        "upload": "Upload",
+        "record": "Record",
+        "uploadText": "Upload your audio file",
+        "uploadDes": "Supports all audio formats, max size 20MB",
+        "uploadBtn": "Upload file",
+        "tryAgain": "Try again",
+        "recordText": "Record your voice",
+        "recordDes": "Click record to start capturing audio",
+        "recordBtn": "Record",
+        "createLoading": "Creating...",
+        "createBtn": "Create Voice",
+        "desPlaceholder": "Describe this voice...",
+        "selectPlaceholder": "Select category...",
+        "labelPlaceholder": "Voice Label",
+        "stop": "Stop"
     }
 }

@@ -11,7 +11,7 @@
         "textToSpeech": "文转音",
         "voiceCloning": "声音克隆",
         "settings": "设置",
-        "help": "帮助",
+        "help": "GitHub",
         "others": "其他"
     },
     "Header": {
@@ -151,5 +151,46 @@
             "label": "冥想引导",
             "prompt": "闭上眼睛，深呼吸。轻轻屏住呼吸……然后呼气。感受一天的疲惫正慢慢消散。随着每一次呼吸，你正进入更深的平静。现在，你哪儿也不用去，就在这里，就在此时。吸入宁静，呼出压力。"
         }
+    },
+    "VoicesToolbar": {
+        "title": "全部声音",
+        "des": "发现声音，或创建属于你的",
+        "placeholder": "搜索声音",
+        "createBtn": "创建语音"
+    },
+    "VoicesList": {
+        "des1": "没有声音",
+        "des2": "将展示在此"
+    },
+    "VoiceCard": {
+        "use": "使用这个语音",
+        "del": "删除这个语音",
+        "delDiaTitle": "删除语音",
+        "cancel": "取消",
+        "delBtn": "删除",
+        "delBtnPending": "删除中...",
+        "delDes1": "你确定要删除",
+        "delDes2": "这个操作不可逆",
+        "delSuccess": "删除成功",
+        "delError": "删除失败"
+    },
+    "VoiceCreate": {
+        "title": "创建声音",
+        "des": "上传或录制音频样本，为您的库添加新声音。",
+        "upload": "上传",
+        "record": "录制",
+        "uploadText": "上传你的声音文件",
+        "uploadDes": "支持所有音频格式, 大小限制20MB",
+        "uploadBtn": "上传文件",
+        "tryAgain": "重试",
+        "recordText": "录制你的声音",
+        "recordDes": "点击开始录制音频",
+        "recordBtn": "录制",
+        "createLoading": "创建中...",
+        "createBtn": "创建语音",
+        "desPlaceholder": "描述下这个声音...",
+        "selectPlaceholder": "选择标签...",
+        "labelPlaceholder": "声音标签",
+        "stop": "停止"
     }
 }

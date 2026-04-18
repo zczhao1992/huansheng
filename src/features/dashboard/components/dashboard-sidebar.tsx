@@ -30,11 +30,12 @@ import {
 import Link from "next/link";
 import { useState } from "react";
 import { useTranslations } from "next-intl";
+import { VoiceCreateDialog } from "@/features/voices/components/voice-create-dialog";
 
 interface MenuItem {
   title: string;
   url?: string;
-  icon: LucideIcon;
+  icon: LucideIcon | React.ElementType;
   onClick?: () => void;
 }
 
@@ -127,17 +128,27 @@ export function DashboardSidebar() {
     },
     {
       title: t("SideBar.help"),
-      url: "mailto:business@codewithantonio.com",
-      icon: Headphones,
+      url: "https://github.com/zczhao1992/huansheng",
+      icon: () => {
+        return (
+          <Image
+            src="/github.svg"
+            alt="Resonance"
+            width={16}
+            height={16}
+            // className="rounded-sm"
+          />
+        );
+      },
     },
   ];
 
   return (
     <>
-      {/* <VoiceCreateDialog
+      <VoiceCreateDialog
         open={voiceDialogOpen}
         onOpenChange={setVoiceDialogOpen}
-      /> */}
+      />
       <Sidebar collapsible="icon">
         <SidebarHeader className="flex flex-col gap-4 pt-4">
           <div className="flex items-center gap-2 pl-1 group-data-[collapsible=icon]:justify-center group-data-[collapsible=icon]:pl-0">
@@ -190,7 +201,6 @@ export function DashboardSidebar() {
         </SidebarContent>
         <div className="border-b border-dashed border-border" />
         <SidebarFooter className="gap-3 py-3">
-          {/* <UsageContainer /> */}
           <SidebarMenu>
             <SidebarMenuItem>
               <UserButton

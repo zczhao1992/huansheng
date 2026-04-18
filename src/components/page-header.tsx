@@ -1,10 +1,8 @@
 "use client";
 
-// import { Headphones, ThumbsUp } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
-// import { useTranslations } from "next-intl";
-// import { Button } from "@/components/ui/button";
+
 import { SidebarTrigger } from "@/components/ui/sidebar";
 import { cn } from "@/lib/utils";
 import { LanguageSwitch } from "./language-switch";
@@ -16,8 +14,6 @@ export function PageHeader({
   title: string;
   className?: string;
 }) {
-  // const t = useTranslations("Header");
-
   return (
     <div
       className={cn(
@@ -41,19 +37,6 @@ export function PageHeader({
             className="rounded-sm"
           />
         </Link>
-
-        {/* <Button variant="outline" size="sm" asChild>
-          <Link href="mailto:zczhao1992@163.com">
-            <ThumbsUp />
-            <span className="hidden lg:block">{t("feedback")}</span>
-          </Link>
-        </Button>
-        <Button variant="outline" size="sm" asChild>
-          <Link href="mailto:zczhao1992@163.com">
-            <Headphones />
-            <span className="hidden lg:block">{t("needHelp")}</span>
-          </Link>
-        </Button> */}
       </div>
     </div>
   );

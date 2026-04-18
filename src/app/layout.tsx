@@ -3,6 +3,7 @@ import { Inter, Geist_Mono } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
 import { Toaster } from "@/components/ui/sonner";
+import { NuqsAdapter } from "nuqs/adapters/next/app";
 import { ClerkProvider } from "@clerk/nextjs";
 import { TRPCReactProvider } from "@/trpc/client";
 import "./globals.css";
@@ -32,8 +33,6 @@ export default async function RootLayout({
 }>) {
   const locale = await getLocale();
 
-  // Providing all messages to the client
-  // side is the easiest way to get started
   const messages = await getMessages();
 
   return (
@@ -43,10 +42,12 @@ export default async function RootLayout({
           <body
             className={`${inter.variable} ${geistMono.variable} antialiased`}
           >
+            <NuqsAdapter>
+              <NextIntlClientProvider messages={messages}>
+                {children}
+              </NextIntlClientProvider>
+            </NuqsAdapter>
             <Toaster />
-            <NextIntlClientProvider messages={messages}>
-              {children}
-            </NextIntlClientProvider>
           </body>
         </html>
       </TRPCReactProvider>
